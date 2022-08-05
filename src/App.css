@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+}
+
+textarea {
+  font-size: 24px;
+}
+
+.stateList {
+  margin-left: 16px;
+  width: 200px;
+  max-height: 400px;
+  overflow-y: scroll;
+}
+.stateList ul {
+  list-style: none;
+}
+.stateList ul li {
+  cursor: pointer;
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 8px;
+}
